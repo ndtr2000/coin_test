@@ -1,0 +1,20 @@
+{
+    "name": "sdk_test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.ts",
+    "scripts": {
+        "build": "npx tsc",
+        "start": "npx tsc && node dist/index.js",
+        "deploy": "npx tsc && node dist/deploy.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@mysten/sui.js": "^0.17.1"
+    },
+    "devDependencies": {
+        "typescript": "^4.9.3"
+    }
+}
